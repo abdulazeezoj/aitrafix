@@ -1,0 +1,31 @@
+# Misc
+desktop.ini
+.DS_Store
+
+.vscode
+.idea
+
+# Dev
+.pdm-python
+
+.env
+.*.env
+.env.*
+!.env.example
+
+.venv
+env
+venv
+
+__pycache__
+.ruff_cache
+.mypy_cache
+.pytest_cache
+
+data
+
+models
+
+experiments
+!experiments/*.py
+!experiments/*.ipynb
